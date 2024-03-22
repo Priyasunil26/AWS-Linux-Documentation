@@ -86,6 +86,10 @@ Select the instance type for the AMI (e.g., t2.micro, m5.large, etc.).Configure 
 - Once the AMI is created, it will appear in the list of AMIs in the Amazon EC2 console.
 - For complete instructions to create an AMI image from the snapshot, refer to this [link](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/Creating_EBSbacked_WinAMI.html).
 
+**Note:** 
+
+If you are not using a managed database server or an Azure blob container, creating a snapshot of your virtual machine is enough.
+
 ### 3. Create a snapshot of an RDS instance
 - In the navigation pane, choose "Databases".
 Select the RDS instance for which you want to create a snapshot. In the "Action" dropdown menu, choose "Take snapshot".
