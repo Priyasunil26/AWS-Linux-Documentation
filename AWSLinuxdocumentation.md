@@ -44,7 +44,8 @@ To install PostgreSQL on Linux, you can use the package manager specific to your
 
 **Note:**
 
-     During the startup configuration, please remember the name of the database as it will be used in resetting the database.
+During the startup configuration, please remember the name of the database as it will be used in resetting the database.
+
 
 ### 4. DNS Mapping and Binding with Bold BI Application
 
@@ -58,7 +59,7 @@ To install PostgreSQL on Linux, you can use the package manager specific to your
 
 **Note:**
 
-   If you are setting up DNS mapping for your virtual machine (VM), it is essential to also map the snapshot of your VM. Alternatively, if you are not using mapping, you will need to use the upgrade command in the Snapshot VM and replace the host URL with the IP address of your Snapshot VM.
+If you are setting up DNS mapping for your virtual machine (VM), it is essential to also map the snapshot of your VM. Alternatively, if you are not using mapping, you will need to use the upgrade command in the Snapshot VM and replace the host URL with the IP address of your Snapshot VM.
 
 
 ## To Enable Backup compatibility of Bold BI application
