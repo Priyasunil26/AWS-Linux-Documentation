@@ -2,8 +2,8 @@
 
 | SEO Details       |                                                                     |
 |-------------------|---------------------------------------------------------------------|
-| Meta Title        | Installing and Enabling Backup Compatibility for Bold BI on  AWS EC2 Windows instance |
-| Meta Description  | Learn how to install Bold BI on AWS EC2 Windows instance and enable backup compatibility with easy-to-follow steps. Ensure data protection and disaster recovery for your Bold BI installation. |
+| Meta Title        | Installing and Enabling Backup Compatibility for Bold BI on  AWS EC2 Linux instance |
+| Meta Description  | Learn how to install Bold BI on AWS EC2 Linux instance and enable backup compatibility with easy-to-follow steps. Ensure data protection and disaster recovery for your Bold BI installation. |
 
 ## Below are the steps that will help you to install Bold BI.
 
