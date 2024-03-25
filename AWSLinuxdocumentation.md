@@ -88,7 +88,7 @@ Select the instance type for the AMI (e.g., t2.micro, m5.large, etc.).Configure 
 
 **Note:** 
 
-If you are not using a managed database server or an Azure blob container, creating a snapshot of your virtual machine is enough.
+If you are not using a managed database server, creating a snapshot of your virtual machine is enough.
 
 ### 3. Create a snapshot of an RDS instance
 - In the navigation pane, choose "Databases".
