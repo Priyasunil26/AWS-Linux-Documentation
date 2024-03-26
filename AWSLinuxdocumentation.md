@@ -108,7 +108,7 @@ Select the RDS instance for which you want to create a snapshot. In the `Action`
 - Once the restoration is complete, verify that the new RDS instance is available and functioning as expected.
 - For detailed instructions on how to restore a DB from a snapshot, refer to the following [link](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_RestoreFromSnapshot.html)
 
-## 5. Reset the Connection string to use restored PostgreSQL Database
+## 5. Reset the Connection string to use restored PostgreSQL Database and establish access to the application.
 
 - To use the restored database, you'll need to reset the database on your Virtual Machine.
 Detailed steps can be found in the following documentation: [Reset Application Database on Linux](https://help.boldbi.com/utilities/bold-bi-command-line-tools/reset-application-database/#linux)
