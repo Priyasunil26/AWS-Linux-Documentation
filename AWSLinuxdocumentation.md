@@ -44,6 +44,8 @@ To install PostgreSQL on Linux instance, you can use the package manager specifi
 
 ### 4. DNS Mapping and Binding with Bold BI Application (optional)
 
+If you wish to expose your application using a domain, follow the steps below. Otherwise, if you want to expose your application through an IP address, skip these steps.
+
 - Map IP Address to Domain Name
   - Log in to your domain registrar's website.
   - Navigate to the DNS management section.
