@@ -27,7 +27,7 @@ To install PostgreSQL on Linux, you can use the package manager specific to your
     sudo systemctl enable postgresql
 **Information:**
   - For installing a MySQL database in a Linux EC2 instance, refer to the steps outlined in this [guide](https://www.devart.com/dbforge/mysql/how-to-install-mysql-on-linux/).
-  - To install an MS SQL database in Windows EC2 instance, follow the instructions provided in this [guide](https://phoenixnap.com/kb/sql-server-linux).
+  - To install an MS SQL database in Linux EC2 instance, follow the instructions provided in this [guide](https://phoenixnap.com/kb/sql-server-linux).
 
 #### b. Setting up PostgreSQL RDS in AWS
 - To create an PostgreSQL RDS in AWS, refer to this [link](https://aws.amazon.com/getting-started/hands-on/create-connect-postgresql-db/).
