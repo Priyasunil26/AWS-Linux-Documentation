@@ -29,7 +29,7 @@ To install PostgreSQL on Linux instance, you can use the package manager specifi
   - For installing a MySQL database in a Linux EC2 instance, refer to the steps outlined in this [guide](https://www.devart.com/dbforge/mysql/how-to-install-mysql-on-linux/).
   - To install an MS SQL database in Linux EC2 instance, follow the instructions provided in this [guide](https://phoenixnap.com/kb/sql-server-linux).
 
-#### b. Setting up PostgreSQL RDS in AWS
+#### b. Setting up Managed PostgreSQL RDS in AWS
 - To create an PostgreSQL RDS in AWS, refer to this [link](https://aws.amazon.com/getting-started/hands-on/create-connect-postgresql-db/).
 
 **Information:** 
@@ -92,7 +92,7 @@ Select the instance type for the AMI (e.g., t2.micro, m5.large, etc.).Configure 
 
 If you are not using a managed database server, creating a snapshot of your virtual machine is enough.
 
-### 3. Create a snapshot of an RDS instance
+### 3. Create a snapshot of an RDS instance (AWS Managed instance)
 - In the navigation pane, choose `Databases`.
 Select the RDS instance for which you want to create a snapshot. In the `Action`dropdown menu, choose "Take snapshot".
 ![RDS Action](images/RDS-Action.png)
@@ -101,7 +101,7 @@ Select the RDS instance for which you want to create a snapshot. In the `Action`
 - For complete instructions to Create a snapshot of an RDS instance refer to this [link](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateSnapshot.html)
 
 
-### 4. Restore the RDS from Snapshot
+### 4. Restore the RDS from Snapshot (AWS Managed instance)
 - Go to the Amazon RDS console. In the navigation pane, choose `Snapshots`. Select the snapshot you want to restore from.
 - Click on the `Actions` dropdown menu and select `Restore snapshot`.
 ![restoration of RDS](images/restoreDBaction.png)
