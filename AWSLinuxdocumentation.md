@@ -14,7 +14,7 @@
 If you want to set up a PostgreSQL Database on EC2 Linux instance, follow the step `a`. If you prefer using a managed RDS in AWS, follow the step `b`.
 
 #### a. Setting up PostgreSQL on a EC2 Linux Instance
-To install PostgreSQL on Linux, you can use the package manager specific to your distribution. Here are the commands for some common distributions:
+To install PostgreSQL on Linux instance, you can use the package manager specific to your distribution. Here are the commands for some common distributions:
 1. **Ubuntu/Debian**:
    ```bash
    sudo apt update
@@ -42,7 +42,7 @@ To install PostgreSQL on Linux, you can use the package manager specific to your
    - For Bold BI installation on Ubuntu, refer to this [document](https://help.boldbi.com/deploying-bold-bi/deploying-in-linux/installation-and-deployment/bold-bi-on-ubuntu/#bold-bi-installation-and-deployment-on-ubuntu). For CentOS, follow this [guide](https://help.boldbi.com/deploying-bold-bi/deploying-in-linux/installation-and-deployment/bold-bi-on-centos/). 
    - For guidance on startup configuration for Bold BI, refer to this [link](https://help.boldbi.com/application-startup/latest/).
 
-### 4. DNS Mapping and Binding with Bold BI Application
+### 4. DNS Mapping and Binding with Bold BI Application (optional)
 
 - Map IP Address to Domain Name
   - Log in to your domain registrar's website.
